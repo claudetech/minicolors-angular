@@ -21,8 +21,19 @@ angular.module('myApp', ['minicolors'])
 ```
 
 Add the directive to your `input` element as a class or an attribute,
-and pass options throught the options attribute.
+and pass the options through the `options` attribute.
+The value will be bound to your `ng-model`.
+
+HTML:
 
 ```html
 input.minicolors(ng-model="color" options="{showSpeed: 50}")
+```
+
+JS:
+
+```js
+angular.module('myApp').controller('AppCtrl', ['$scope', function ($scope) {
+    $scope.color = '#dfdfdf';
+}]);
 ```
