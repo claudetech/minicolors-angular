@@ -19,6 +19,10 @@
       showSpeed: 100,
       theme: 'default'
     };
+
+    this.$get = function () {
+      return this;
+    };
   });
 
   minicolors.directive('minicolors', ['$parse', 'minicolors', function ($parse, minicolors) {

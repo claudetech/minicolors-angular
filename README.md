@@ -4,9 +4,13 @@ Simple wrapper for [jquery-minicolors](https://github.com/claviska/jquery-miniCo
 
 ## Installation
 
+Run
+
 ```sh
 $ bower install minicolors-angular
 ```
+
+then add `jquery.minicolors.css`, `jquery.minicolors.js` and `minicolors.angular.js` to your HTML.
 
 ## Usage
 
