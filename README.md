@@ -27,7 +27,7 @@ The value will be bound to your `ng-model`.
 HTML:
 
 ```html
-input.minicolors(ng-model="color" options="{showSpeed: 50}")
+input.minicolors(type="text" ng-model="color" options="{showSpeed: 50}")
 ```
 
 JS:
