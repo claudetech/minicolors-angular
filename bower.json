@@ -1,0 +1,25 @@
+{
+  "name": "minicolors-angular",
+  "version": "0.1.0",
+  "authors": [
+    "Daniel Perez <daniel@claudetech.com>"
+  ],
+  "description": "AngularJS wrapper for jQuery minicolors",
+  "main": "minicolors-angular",
+  "keywords": [
+    "minicolors",
+    "angularjs"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/claudetech/minicolors-angular",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery-minicolors": "~2.1.10"
+  }
+}
